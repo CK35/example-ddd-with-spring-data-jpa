@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<configuration>
+
+    <appender name="appender-console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <charset>UTF-8</charset>
+            <pattern>%d{HH:mm:ss.SSS} %level [%thread]  %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="appender-console"/>
+    </root>
+    
+    <logger level="info" name="org.springframework" />
+    <logger level="info" name="h2database" />
+    
+</configuration>

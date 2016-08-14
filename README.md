@@ -1,2 +1,4 @@
-# minimal-ddd-with-spring-data-jpa
+# example-ddd-with-spring-data-jpa
 Minimal project for DDD implemented with Spring Data JPA.
+
+
